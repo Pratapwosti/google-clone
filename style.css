@@ -1,0 +1,231 @@
+body{
+    background-color: #202124;
+    width: auto;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding-right: 0px;
+    float: right;
+   
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 9px;
+    font-family: sans-serif;
+    font-size: 13px;
+    vertical-align: middle;
+    display: inline-block;
+    line-height:24px;
+    font-style: bold;
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.profile img{
+    width: 32px;
+    height: 32px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    /* padding: 10px; */
+    margin: 0px;
+    position: relative;
+    /* padding-top: 7px; */
+    cursor: pointer;
+    margin:  7px 10px 10px 10px;
+}
+.profile img:hover{
+    border: 2px solid #5f6368;
+    border-radius: 50%;
+
+}
+div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+    width: 97%;
+    margin-top: 50px;
+}
+
+ button{
+    position: relative;
+   width: auto;
+    height: 40px;
+    color: #fff;
+    background-color: #353538;
+    border-radius: 10px;
+    left: 45%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    margin-right:12px;
+    border: 2px solid #353538;
+    cursor: pointer;
+}
+button:hover{
+    position: relative;
+    width: auto;
+     height: 40px;
+     color: #fff;
+     background-color: #353538;
+     border-radius: 10px;
+     left: 45%;
+     transform: translateX(-50%);
+     margin-top: 20px;
+     margin-right: 14px;
+    border-radius: 10px;
+    border: 1px solid #5f6368;
+}
+
+.goxjub{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    z-index: 1000;
+
+
+}
+.bar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: auto;
+    border: 1px solid #5f6368;
+   max-width: 580px;
+   left: 50%;
+   transform: translateX(-50%);
+   border-radius: 24px;
+   height: 44px;
+   padding: 0 10px;
+  
+
+}
+.input input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 100%;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+.input{
+    flex: 2;
+    color: #e8eaed;
+}
+.bar:hover{
+background-color: #5f6368;
+}
+.camera svg{
+    width: 24px;
+    height: 24px;
+
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 3px ;
+}
+.searchicon svg{
+    width: 24px;
+    height: 24px;
+    fill: #3f4246 ;
+    
+}
+.offer{
+    display: inline;
+    flex-direction: row;
+
+}
+.offer h6{
+    position: absolute;
+    width: auto;
+     height: 40px;
+     color: #bdc1c6;
+     left: 45%;
+     margin-top: 20px;
+     margin-right:5px;
+     font-family: sans-serif;
+     font-weight: 30px;
+
+}
+.offer span{
+     color: #8ab4f8;
+     padding-left: 13px;  
+}
+.offer span:hover{
+    color: #8ab4f8;
+    padding-left: 13px; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.icons, .camera{
+    cursor: pointer;
+}
+.footer{
+    position: absolute;
+    display: flex;
+    background-color: #171717;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+    flex-direction: column;
+}
+.first{
+    justify-content: center;
+    position: relative;
+    width: auto;
+    border-bottom: 1px solid #3c4043;
+    font-size: 16px;
+    color: #9aa0a6;
+    height: 50px;
+    padding-left: 20px;
+
+}
+.second{
+   /* display: absolute; */
+    width: 100%;
+    height: auto;
+    display: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+.second a{
+    /* display: absolute; */
+    padding: 15px;
+    display: relative;
+    cursor: pointer;
+}
+.second a:hover{
+    text-decoration: underline;
+}
+.second .right{
+    /* display: absolute; */
+    float: right;
+    display: relative;
+}
+.second .left{
+    /* display: absolute; */
+    display: relative;
+    float: left;
+    padding-left: 15px;
+    
+}
